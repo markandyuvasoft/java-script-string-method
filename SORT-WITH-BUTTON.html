@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+    <head>
+      
+    </head>
+    <body>
+      1,2,4,7,9,6<br>
+        <button onclick="number()">number sort</button>
+        <p id="demo"></p>
+ 
+
+    <script>
+
+        var arr=[1,2,4,7,9,6]
+
+        function number()
+        {
+            arr.sort(function(a,b) {return a-b})
+
+            document.getElementById('demo').innerHTML=arr
+        }
+
+
+    </script>
+       </body>
+</html>
